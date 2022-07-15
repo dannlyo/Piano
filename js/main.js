@@ -95,6 +95,55 @@ window.onkeypress =  (key) =>{
         // console.log(audio);
     }
 }
+
+keyC.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-c_C_major.wav');
+    audio.play();   
+})
+keyD.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-d_D_major.wav');
+    audio.play();   
+})
+keyE.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-e_E_major.wav');
+    audio.play();   
+})
+keyF.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-f_F_major.wav');
+    audio.play();   
+})
+keyG.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-g_G_major.wav');
+    audio.play();   
+})
+keyA.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-a_A_major.wav');
+    audio.play();   
+})
+keyE2.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-e_E_major.wav');
+    audio.play();   
+})
+keyCs.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-g_Gs_major.wav');
+    audio.play();  
+})
+keyDs.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-bb_As_major.wav');
+    audio.play();  
+})
+keyFs.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-f_Fs_major.wav');
+    audio.play(); 
+})
+keyGs.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-eb_Ds_major.wav');
+    audio.play();  
+})
+keyAs.addEventListener('click', () =>{
+    var audio = new Audio('/key/piano-c_Cs_major.wav');
+    audio.play();  
+})
 // window.onkeyup =  (key) =>{
 //     var key.key = document.querySelectorAll('.key');
 //     for(var i = 0; i < key.length;i++){
